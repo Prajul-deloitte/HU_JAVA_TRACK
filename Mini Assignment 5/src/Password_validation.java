@@ -17,7 +17,7 @@ class InvalidPasswordException extends Exception {
         switch (passwordConditionViolated) {
 
             // Password length should be
-            // between 8 to 15 characters
+            // between  characters
             case 1:
                 return ("Password length should be"
                         + " between 8 to 15 characters");
