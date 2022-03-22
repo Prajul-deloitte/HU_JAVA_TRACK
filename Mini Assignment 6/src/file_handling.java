@@ -15,6 +15,7 @@ public class file_handling {
 
                 }
                 i++;
+
             }
             Collections.sort(candidate, (a, b)-> a.getRank()-b.getRank());
 
